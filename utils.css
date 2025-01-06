@@ -1,0 +1,39 @@
+.button {
+    color: blue;
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.button:hover {
+    box-shadow: white 0px 0px 20px 7px;
+}
+
+.flex {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.color1 {
+    color: white;
+}
+
+.dec-none {
+    text-decoration: none;
+}
+
+.button-2 {
+    margin-top: 15px;
+    background-image: linear-gradient(to right, #1488cc, #2b32b2);
+    width: 15vw;
+    text-align: center;
+    font-size: larger;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.button-2:hover {
+    box-shadow: #2b32b2 0px 0px 20px 8px;
+    text-shadow: white 0px 0px 11px;
+}

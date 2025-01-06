@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Header Section */
+
+nav {
+    background-image: linear-gradient(to right, #1488cc, #2b32b2);
+    padding: 10px;
+    position: relative;
+    opacity: 90%;
+}
+
+.nav2 {
+    position: relative;
+    background-image: url(/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    top: -51px;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav2 h1 {
+    font-size: xx-large;
+    bottom: 20vh;
+    color: white;
+    background-color: gray;
+    text-align: center;
+    opacity: 80%;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 40vh;
+    border-radius: 20px;
+}
+
+.nav2 p {
+    font-size: larger;
+    bottom: 5vh;
+    color: white;
+    background-color: #52565b;
+    opacity: 80%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.navigation {
+    gap: 40px;
+    list-style: none;
+    font-size: large;
+    margin: 5px;
+    text-transform: uppercase;
+}
+
+.row1-2 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.row1 h1 {
+    color: #2b32b2;
+    font-size: 3vw;
+    width: 80vw;
+}
+
+.row1 p {
+    color: #52565b;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+
+.card {
+    color: #52565b;
+    margin-top: 70px;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: #e1d3d3 0px 0px 20px 6px;
+    padding: 10px;
+    text-align: center;
+}
+
+.card:hover {
+    cursor: context-menu;
+    box-shadow: inset #e1d3d3 0px 0px 20px 6px;
+    transform: scale(1, 1.07);
+    transform-origin: bottom;
+    transition-duration: 100ms;
+    /* background-color: #2b32b2; */
+}
+
+.card img {
+    justify-content: center;
+    width: 50px;
+}
+
+#about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: #52565b;
+}
+
+.about-img img {
+    width: 40vw;
+}
+
+.about-text {
+    width: 44vw;
+}
+
+.about-text h1 {
+    font-size: 15px;
+    text-decoration: underline #2b32b2;
+}
+
+.about-text h2 {
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 10px 0px 10px 0px;
+    color: #2b32b2;
+}
+
+.about-text a {
+    margin-left: 20px;
+    padding: 20px 40px 20px 40px;
+}
+
+.about-text p {
+    font-size: large;
+    padding: 15px;
+}
+
+.about-2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 32px;
+}
+
+.explore-more {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 32px;
+}
+
+.explore-more-text {
+    width: 44vw;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    position: relative;
+    top: 3px;
+}
+
+.explore-more-text h2 {
+    font-size: 3vw;
+    font-weight: bolder;
+    padding: 10px 0px 10px 0px;
+    color: #2b32b2;
+}
+
+.explore-img img {
+    width: 40vw;
+}
+
+.explore-more a {
+    position: relative;
+    display: block;
+    margin-left: 20px;
+    right: 17px;
+    top: 20px;
+    padding: 20px 40px 20px 40px;
+    width: 8vw;
+}
+
+.popular-courses {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    width: 85vw;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.card1 {
+    color: #52565b;
+    width: 18.6vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: #e1d3d3 0px 0px 20px 6px;
+    padding: 10px;
+    text-align: center;
+}
+
+.card1 img {
+    width: 5vw;
+}
+
+.poularCoursesContainer h2 {
+    text-align: center;
+    padding-top: 2px;
+    color: #2b32b2;
+    margin-bottom: 20px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20vw;
+    background-image: linear-gradient(to right, #1488cc, #2b32b2);
+}
+
+footer ul {
+    list-style: none;
+    padding: 40px;
+}
+
+footer ul li {
+    color: #e1d3d3;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+}

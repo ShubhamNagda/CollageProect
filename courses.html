@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+    <link rel="stylesheet" href="courses.css">
+    <style>
+        .container {
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .course {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .course img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        .course h2 {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+
+        .enroll-button {
+            background-color: #28a745;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .enroll-button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="header">
+        <header>
+            <nav>
+                <ul class="flex navigation">
+                    <li><a href="/index.html" class="color1 dec-none">Home</a></li>
+                    <li><a href="/about.html" class="color1 dec-none">About</a></li>
+                    <li><a href="/contact.html" class="color1 dec-none">Contact</a></li>
+                    <li><a href="/courses.html" class="color1 dec-none">Courses</a></li>
+                    <li><a href="/login.html" class="button dec-none">Login</a></li>
+                </ul>
+            </nav>
+            <div class="nav2">
+                <h1>Interactive Learning Experience</h1>
+                <p>Engage with interactive lessons, quizzes, and
+                    projects. </p>
+                <p>hands-on learning that keeps you motivated and inspired.</p>
+            </div>
+        </header>
+    </section>
+    <main>
+        <h1>~~Explore new and trending free online courses~~</h1>
+        <div class="container">
+            <!-- Example Course 1 -->
+            <div class="course">
+                <img src="course1.jpg" alt="Course 1">
+                <h2>HTML Course for Beginners</h2>
+                <div class="details">
+                    <div>
+                        <img src="/users.svg" alt="users">
+                        <p>2.3M</p>
+                    </div>
+                    <div>
+                        <img src="/rate.svg" alt="">
+                        <p>4.2</p>
+                    </div>
+                    <div>
+                        <img src="/duration.svg" alt="">
+                        <p>2 Hrs</p>
+                    </div>
+                    <div>
+                        <img src="/rupee-icon.svg" alt="">
+                        <p>0</p>
+                    </div>
+                </div>
+                <a href="#" class="enroll-button">Enroll Now</a>
+            </div>
+
+            <!-- Example Course 2 -->
+            <div class="course">
+                <img src="course3.jpg" alt="Course 2">
+                <h2>Python for Beginners</h2>
+                <div class="details">
+                    <div>
+                        <img src="/users.svg" alt="users">
+                        <p>2.3M</p>
+                    </div>
+                    <div>
+                        <img src="/rate.svg" alt="">
+                        <p>4.2</p>
+                    </div>
+                    <div>
+                        <img src="/duration.svg" alt="">
+                        <p>2 Hrs</p>
+                    </div>
+                    <div>
+                        <img src="/rupee-icon.svg" alt="">
+                        <p>999</p>
+                    </div>
+                </div>
+                <a href="#" class="enroll-button">Enroll Now</a>
+            </div>
+
+            <!-- Example Course 3 -->
+            <div class="course">
+                <img src="course2.jpg" alt="Course 3">
+                <h2>CSS Course for Beginners</h2>
+                <div class="details">
+                    <div>
+                        <img src="/users.svg" alt="users">
+                        <p>2.3M</p>
+                    </div>
+                    <div>
+                        <img src="/rate.svg" alt="">
+                        <p>4.2</p>
+                    </div>
+                    <div>
+                        <img src="/duration.svg" alt="">
+                        <p>2 Hrs</p>
+                    </div>
+                    <div>
+                        <img src="/rupee-icon.svg" alt="">
+                        <p>0</p>
+                    </div>
+                </div>
+                <a href="#" class="enroll-button">Enroll Now</a>
+            </div>
+
+            <!-- Example Course 4 -->
+            <div class="course">
+                <img src="course4.jpg" alt="Course 4">
+                <h2>FullStack Developer Master class</h2>
+                <div class="details">
+                    <div>
+                        <img src="/users.svg" alt="users">
+                        <p>2.3M</p>
+                    </div>
+                    <div>
+                        <img src="/rate.svg" alt="">
+                        <p>4.2</p>
+                    </div>
+                    <div>
+                        <img src="/duration.svg" alt="">
+                        <p>2 Hrs</p>
+                    </div>
+                    <div>
+                        <img src="/rupee-icon.svg" alt="">
+                        <p>999</p>
+                    </div>
+                </div>
+                <a href="#" class="enroll-button">Enroll Now</a>
+            </div>
+
+            <!-- Example Course 5 -->
+            <div class="course">
+                <img src="course5.jpg" alt="Course 5">
+                <h2>ChatGpt Master Class</h2>
+                <div class="details">
+                    <div>
+                        <img src="/users.svg" alt="users">
+                        <p>2.3M</p>
+                    </div>
+                    <div>
+                        <img src="/rate.svg" alt="">
+                        <p>4.2</p>
+                    </div>
+                    <div>
+                        <img src="/duration.svg" alt="">
+                        <p>2 Hrs</p>
+                    </div>
+                    <div>
+                        <img src="/rupee-icon.svg" alt="">
+                        <p>999</p>
+                    </div>
+                </div>
+                <a href="#" class="enroll-button">Enroll Now</a>
+            </div>
+
+            <!-- Example Course 6 -->
+            <div class="course">
+                <img src="course6.jpg" alt="Course 6">
+                <h2>Master amazon Web Services</h2>
+                <div class="details">
+                    <div>
+                        <img src="/users.svg" alt="users">
+                        <p>2.3M</p>
+                    </div>
+                    <div>
+                        <img src="/rate.svg" alt="">
+                        <p>4.2</p>
+                    </div>
+                    <div>
+                        <img src="/duration.svg" alt="">
+                        <p>2 Hrs</p>
+                    </div>
+                    <div>
+                        <img src="/rupee-icon.svg" alt="">
+                        <p>999</p>
+                    </div>
+                </div>
+                <a href="#" class="enroll-button">Enroll Now</a>
+            </div>
+
+            <!-- Example Course 7 -->
+            <div class="course">
+                <img src="course7.jpg" alt="Course 7">
+                <h2>AI and Machine Learning</h2>
+                <div class="details">
+                    <div>
+                        <img src="/users.svg" alt="users">
+                        <p>2.3M</p>
+                    </div>
+                    <div>
+                        <img src="/rate.svg" alt="">
+                        <p>4.2</p>
+                    </div>
+                    <div>
+                        <img src="/duration.svg" alt="">
+                        <p>2 Hrs</p>
+                    </div>
+                    <div>
+                        <img src="/rupee-icon.svg" alt="">
+                        <p>999</p>
+                    </div>
+                </div>
+                <a href="#" class="enroll-button">Enroll Now</a>
+            </div>
+
+            <!-- Example Course 8 -->
+            <div class="course">
+                <img src="course8.jpg" alt="Course 8">
+                <h2>C++ Beginner to advance</h2>
+                <div class="details">
+                    <div>
+                        <img src="/users.svg" alt="users">
+                        <p>2.3M</p>
+                    </div>
+                    <div>
+                        <img src="/rate.svg" alt="">
+                        <p>4.2</p>
+                    </div>
+                    <div>
+                        <img src="/duration.svg" alt="">
+                        <p>2 Hrs</p>
+                    </div>
+                    <div>
+                        <img src="/rupee-icon.svg" alt="">
+                        <p>0</p>
+                    </div>
+                </div>
+                <a href="#" class="enroll-button">Enroll Now</a>
+            </div>
+
+            <!-- Example Course 9 -->
+            <div class="course">
+                <img src="course9.jpg" alt="Course 9">
+                <h2>MySQL Complete Guide</h2>
+                <div class="details">
+                    <div>
+                        <img src="/users.svg" alt="users">
+                        <p>2.3M</p>
+                    </div>
+                    <div>
+                        <img src="/rate.svg" alt="">
+                        <p>4.2</p>
+                    </div>
+                    <div>
+                        <img src="/duration.svg" alt="">
+                        <p>2 Hrs</p>
+                    </div>
+                    <div>
+                        <img src="/rupee-icon.svg" alt="">
+                        <p>999</p>
+                    </div>
+                </div>
+                <a href="#" class="enroll-button">Enroll Now</a>
+            </div>
+            <div class="course">
+                <img src="course10.jpg" alt="Course 9">
+                <h2>React frontent complete</h2>
+                <div class="details">
+                    <div>
+                        <img src="/users.svg" alt="users">
+                        <p>2.3M</p>
+                    </div>
+                    <div>
+                        <img src="/rate.svg" alt="">
+                        <p>4.2</p>
+                    </div>
+                    <div>
+                        <img src="/duration.svg" alt="">
+                        <p>2 Hrs</p>
+                    </div>
+                    <div>
+                        <img src="/rupee-icon.svg" alt="">
+                        <p>999</p>
+                    </div>
+                </div>
+                <a href="#" class="enroll-button">Enroll Now</a>
+            </div>
+            <div class="course">
+                <img src="course11.jpg" alt="Course 9">
+                <h2>Complete MS excel</h2>
+                <div class="details">
+                    <div>
+                        <img src="/users.svg" alt="users">
+                        <p>2.3M</p>
+                    </div>
+                    <div>
+                        <img src="/rate.svg" alt="">
+                        <p>4.2</p>
+                    </div>
+                    <div>
+                        <img src="/duration.svg" alt="">
+                        <p>2 Hrs</p>
+                    </div>
+                    <div>
+                        <img src="/rupee-icon.svg" alt="">
+                        <p>999</p>
+                    </div>
+                </div>
+                <a href="#" class="enroll-button">Enroll Now</a>
+            </div>
+            <div class="course">
+                <img src="course12.jpg" alt="Course 9">
+                <h2>Ultimate java Course</h2>
+                <div class="details">
+                    <div>
+                        <img src="/users.svg" alt="users">
+                        <p>2.3M</p>
+                    </div>
+                    <div>
+                        <img src="/rate.svg" alt="">
+                        <p>4.2</p>
+                    </div>
+                    <div>
+                        <img src="/duration.svg" alt="">
+                        <p>2 Hrs</p>
+                    </div>
+                    <div>
+                        <img src="/rupee-icon.svg" alt="">
+                        <p>999</p>
+                    </div>
+                </div>
+                <a href="#" class="enroll-button">Enroll Now</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="left">
+            <ul>
+                <li style="font-size: xx-large;">Quick Link</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+                <li>Privacy Policy </li>
+                <li>Terms & Condition</li>
+                <li>FAQs & Help</li>
+        </div>
+        <div class="center">
+            <ul>
+                <li style="font-size: xx-large;">Contact</li>
+                <li>123 Street, Bangalore, Karnataka</li>
+
+                <li> +91 8683045908</li>
+
+                <li>lEarn_IT@gmail.com</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
