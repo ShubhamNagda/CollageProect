@@ -19,7 +19,7 @@ nav {
 
 .nav2 {
     position: relative;
-    background-image: url(banner.png);
+    background-image: url(/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -264,4 +264,169 @@ footer ul li {
     font-size: larger;
     font-weight: bolder;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .navigation {
+        gap: 10px;
+        font-size: medium;
+        margin: 20px 0px 20px 0px;
+        font-size: 15px;
+    }
+
+    .nav2 h1 {
+        font-size: xx-large;
+        bottom: 50vh;
+        color: white;
+        background-color: gray;
+        text-align: center;
+        opacity: 80%;
+        padding: 10px;
+        margin: 10px;
+        margin-top: 15vh;
+        border-radius: 20px;
+    }
+
+    .nav2 p {
+        font-size: larger;
+        bottom: 70vh;
+        color: white;
+        background-color: #52565b;
+        opacity: 80%;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .row1 h1 {
+        color: #2b32b2;
+        font-size: x-large;
+        width: 100vw;
+    }
+
+    .row1 p {
+        margin-top: 15px;
+        color: #52565b;
+        font-weight: bold;
+        font-size: medium;
+    }
+
+    .card {
+        margin-top: 20px;
+        width: 130px;
+    }
+
+    #about {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        color: #52565b;
+    }
+
+    .about-img img {
+        margin-top: 50px;
+        width: 90vw;
+        margin-bottom: 50px;
+    }
+
+    .about-text {
+        width: 100vw;
+    }
+
+    .about-text h1 {
+        font-size: 15px;
+        text-decoration: underline #2b32b2;
+        text-align: center;
+    }
+
+    .about-text h2 {
+        font-size: xx-large;
+        text-align: center;
+        font-weight: bold;
+        /* padding: 10px 0px 10px 0px; */
+        color: #2b32b2;
+        text-align: center;
+    }
+
+    .explore-more {
+        margin-top: 80px;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 32px;
+    }
+
+    .explore-more-text {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        /* position: relative; */
+        /* top: 3px; */
+    }
+
+    .explore-more-text h2 {
+        font-size: 30px;
+        font-weight: bolder;
+        padding: 10px 0px 10px 0px;
+        color: #2b32b2;
+    }
+
+    .explore-img img {
+        width: 90vw;
+    }
+
+    .explore-more a {
+        position: static;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        padding: 20px 20px 20px 20px;
+        width: 40vw;
+    }
+
+    .popular-courses {
+        gap: 20px;
+        width: 100vw;
+    }
+
+    .card1 {
+        width: 35vw;
+        height: 22vh;
+        padding: 10px;
+        font-size: small;
+    }
+
+    .card1 img {
+        width: 10vw;
+    }
+
+    .poularCoursesContainer h2 {
+        margin-bottom: 20px;
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+
+    footer {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        gap: 0vw;
+        background-image: linear-gradient(to right, #1488cc, #2b32b2);
+    }
+
+    footer ul {
+        list-style: none;
+        padding: 10px;
+    }
+
+    footer ul li {
+        color: #e1d3d3;
+        font-size: medium;
+        font-weight: bolder;
+        cursor: pointer;
+    }
 }
