@@ -4,10 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Home</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utils.css">
+    <script>
+        window.onload = function() {
+            const loggedIn = localStorage.getItem('loggedIn') === 'true';
+            const loginButton = document.getElementById('login-button');
+            const profilePic = document.getElementById('profile-pic');
 
+            if (loggedIn) {
+                loginButton.style.display = 'none';
+                profilePic.style.display = 'block';
+            } else {
+                loginButton.style.display = 'block';
+                profilePic.style.display = 'none';
+            }
+        };
+    </script>
 </head>
 
 <body>
@@ -19,25 +33,24 @@
                     <li><a href="about.html" class="color1 dec-none">About</a></li>
                     <li><a href="contact.html" class="color1 dec-none">Contact</a></li>
                     <li><a href="courses.html" class="color1 dec-none">Courses</a></li>
-                    <li><a href="login.html" class="button dec-none">Login</a></li>
+                    <li id="login-button"><a href="login.html" class="button dec-none">Login</a></li>
+                    <li id="profile-pic" style="display:none;">
+                        <img src="https://oyepriyansh.pages.dev/i/5nf5fd.png" alt="Profile" width="40">
+                    </li>
                 </ul>
             </nav>
             <div class="nav2">
                 <h1>Interactive Learning Experience</h1>
-                <p>Engage with interactive lessons, quizzes, and
-                    projects. </p>
-                <p>hands-on learning that keeps you motivated and inspired.</p>
+                <p>Engage with interactive lessons, quizzes, and projects.</p>
+                <p>Hands-on learning that keeps you motivated and inspired.</p>
             </div>
         </header>
     </section>
     <section id="header2">
         <div class="row1-2">
             <div class="row1">
-                <h1>The more you learn the more you earn Invest in your professional goals with us</h1>
-                <p>Get unlimited access to over 90% of courses, Projects, Specializations, and Professional Certificates
-                    on
-                    Coursera,
-                    taught by top instructors.</p>
+                <h1>The more you learn the more you earn. Invest in your professional goals with us</h1>
+                <p>Get unlimited access to over 90% of courses, Projects, Specializations, and Professional Certificates on Coursera, taught by top instructors.</p>
             </div>
             <div class="row2">
                 <div class="card">
@@ -63,6 +76,9 @@
             </div>
         </div>
     </section>
+    <div style="text-align: center; margin: 20px 0;">
+        <a href="courses.html" class="button-2">Explore Courses</a>
+    </div>
     <section id="about">
         <div class="about-img">
             <img src="about-img.png" alt="about">
@@ -73,7 +89,6 @@
             <p>we believe in accessible, innovative learning experiences that adapt to your schedule and learning style.
                 Join us in
                 embracing the future of education and unlock your potential with our immersive online courses.
-
             </p>
             <p>Welcom to lEarn_IT, your gateway to boundless learning opportunities. We're dedicated to
                 democratizing
@@ -81,7 +96,6 @@
                 offering a diverse range of courses taught by industry experts. Our mission is to empower learners
                 worldwide, fostering
                 a community-driven platform where knowledge knows no limits.</p>
-            </p>
             <div class="about-2">
                 <div>
                     <p>➡️ Expert Instructors</p>
@@ -122,7 +136,7 @@
                 </div>
                 <div class="card1">
                     <img src="aws-icon.svg" alt="PopularCourses">
-                    <h1>aws</h1>
+                    <h1>AWS</h1>
                 </div>
                 <div class="card1">
                     <img src="python-programming-language-icon.svg" alt="PopularCourses">
@@ -156,14 +170,13 @@
                 <li>Privacy Policy </li>
                 <li>Terms & Condition</li>
                 <li>FAQs & Help</li>
+            </ul>
         </div>
         <div class="center">
             <ul>
                 <li style="font-size: xx-large;">Contact</li>
                 <li>123 Street, Neemuch, Madhya Pradesh</li>
-
-                <li> +91 868304554565</li>
-
+                <li> +91 8683045908</li>
                 <li>lEarn_IT@gmail.com</li>
             </ul>
         </div>
